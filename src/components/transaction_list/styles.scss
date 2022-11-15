@@ -1,0 +1,36 @@
+.list-container {
+    background-color: var(--background);
+
+    width: 231px;
+    height: 100%;
+
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: left;
+
+    & h1 {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 700;
+
+        height: 25px;
+
+        color: var(--blue-text);
+
+        border-bottom: 1px solid var(--blue-text);
+    }
+    
+    & p {
+        text-transform: capitalize;
+        font-size: 16px;
+        font-style: italic;
+        
+        color: var(--blue-text);
+    }
+}

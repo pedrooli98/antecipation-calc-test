@@ -1,0 +1,23 @@
+:root {
+    --background: #f5f7fa;
+    --text: #8b8a8a;
+    --blue-text: #74a8ef;
+}
+
+body {
+    background-color: var(--background);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 100px 0px;
+
+}
+
+h1,h2,h3,h4,h5,h6,div,p,br,span{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    color: var(--text);
+}
+

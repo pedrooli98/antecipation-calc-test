@@ -1,0 +1,29 @@
+.dashboard-container {
+    
+    width: 608px;
+    height: 410px;
+
+    // padding: 40px 80px;
+
+    background-color: white;
+
+    border: 1px solid var(--text);
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+
+    & h1 {
+        font-size: 24px;
+    }
+
+    .content-container {
+        margin: 42px 0px 40px 56px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
+

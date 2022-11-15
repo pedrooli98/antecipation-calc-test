@@ -1,0 +1,30 @@
+.container-input {
+    height:60px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 30px;
+    
+
+    & input {
+        width: 251px;
+        
+        padding: 12px;
+
+        background-color: white;
+
+        border: 1px solid #DDE6E9;
+        border-radius: 4px;
+
+        margin-top: -13px;
+    }
+
+    span {
+        font-size: 11px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
