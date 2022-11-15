@@ -3,11 +3,11 @@ import "./styles.scss"
 
 import { IInput } from "../../interfaces";
 
-const Input = ({label}: IInput) => {
+const Input = ({label, name, register, errors}: IInput) => {
     return (
     <div className="container-input">
         <p>{label}</p>
-        <input type="text" />
+        <input type="number" />
         {/* {label === "Em quantas parcelas" ? (
             <span>Máximo de 12 parcelas</span>
         ):(
@@ -15,6 +15,7 @@ const Input = ({label}: IInput) => {
         )} */}
     </div>
     )
+
 }
 
 export default Input
